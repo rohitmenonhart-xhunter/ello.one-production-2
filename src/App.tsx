@@ -485,17 +485,17 @@ function App() {
                         <p className="text-sm text-[#939090] tracking-wider">Years Experience</p>
                       </div>
                       <div className="text-center">
-                        <h4 className="text-3xl font-light mb-2">10+</h4>
+                        <h4 className="text-3xl font-light mb-2">20+</h4>
                         <p className="text-sm text-[#939090] tracking-wider">Projects Completed</p>
                       </div>
-                      <div className="text-center">
+                      {/* <div className="text-center">
                         <h4 className="text-3xl font-light mb-2">5+</h4>
                         <p className="text-sm text-[#939090] tracking-wider">Research Papers</p>
                       </div>
                       <div className="text-center">
                         <h4 className="text-3xl font-light mb-2">2+</h4>
                         <p className="text-sm text-[#939090] tracking-wider">Active Products</p>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
 
