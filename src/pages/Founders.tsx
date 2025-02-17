@@ -37,7 +37,7 @@ function Founders() {
               <div className="glass-effect p-8 rounded-2xl hover:bg-[#939090]/5 transition-all duration-500 floating hover-glow">
                 <div className="aspect-square mb-6 overflow-hidden rounded-xl">
                   <img 
-                    src="https://cdn.jsdelivr.net/gh/rohitmenonhart-xhunter/ello.one-production-2@91fe748f5cea77c405fedaca2dc00e6d6b1585c2/founders/prem.jpeg" 
+                    src="https://cdn.jsdelivr.net/gh/rohitmenonhart-xhunter/ello.one-production-2@08b51c0af6ee1c1b1e4e41c36b3cdf30b19ae1cd/founders/rohit.jpeg" 
                     alt="Rohit" 
                     className="w-full h-full object-cover"
                   />
@@ -76,7 +76,7 @@ function Founders() {
               <div className="glass-effect p-8 rounded-2xl hover:bg-[#939090]/5 transition-all duration-500 floating hover-glow">
                 <div className="aspect-square mb-6 overflow-hidden rounded-xl">
                   <img 
-                    src="/founders/prem.jpeg" 
+                    src="https://cdn.jsdelivr.net/gh/rohitmenonhart-xhunter/ello.one-production-2@91fe748f5cea77c405fedaca2dc00e6d6b1585c2/founders/prem.jpeg" 
                     alt="Prem" 
                     className="w-full h-full object-cover"
                   />
