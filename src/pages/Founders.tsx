@@ -8,6 +8,44 @@ function Founders() {
       <Helmet>
         <title>Our Founders - ello.one</title>
         <meta name="description" content="Meet the visionary founders behind ello.one - leaders in AI technology innovation and research." />
+        <link rel="canonical" href="https://ello.one/founders" />
+        
+        {/* Add structured data for the Founders page */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "AboutPage",
+            "name": "ello.one Founders",
+            "description": "Meet the visionary founders behind ello.one - leaders in AI technology innovation and research.",
+            "mainEntity": {
+              "@type": "ItemList",
+              "itemListElement": [
+                {
+                  "@type": "Person",
+                  "name": "Rohit",
+                  "image": "https://cdn.jsdelivr.net/gh/rohitmenonhart-xhunter/ello.one-production-2@08b51c0af6ee1c1b1e4e41c36b3cdf30b19ae1cd/founders/rohit.jpeg",
+                  "jobTitle": ["CEO", "CTO", "CFO"],
+                  "description": "A visionary leader with extensive experience in AI and machine learning.",
+                  "sameAs": [
+                    "https://www.linkedin.com/in/rohitmenonhart1/",
+                    "https://x.com/rohitmenonhart"
+                  ]
+                },
+                {
+                  "@type": "Person",
+                  "name": "Prem",
+                  "image": "https://cdn.jsdelivr.net/gh/rohitmenonhart-xhunter/ello.one-production-2@91fe748f5cea77c405fedaca2dc00e6d6b1585c2/founders/prem.jpeg",
+                  "jobTitle": ["CMO", "Deputy CFO"],
+                  "description": "A marketing strategist with a passion for technology.",
+                  "sameAs": [
+                    "https://linkedin.com/in/prem",
+                    "https://twitter.com/premkumar"
+                  ]
+                }
+              ]
+            }
+          })}
+        </script>
       </Helmet>
 
       <div className="min-h-screen bg-black text-white">
